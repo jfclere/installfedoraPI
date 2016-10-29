@@ -32,6 +32,7 @@ else
    unzip master.zip
 fi
 cp -r ./firmware-master/boot/* /tmp/rpi/boot/
+cp -r ./firmware-master/modules/* /tmp/rpi/lib/modules/
 
 # configure root to access via ssh.
 #  copy ssh key to root in PI.
