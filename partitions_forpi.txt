@@ -1,0 +1,8 @@
+label: dos
+label-id: 0x00000000
+device: /dev/mmcblk0
+unit: sectors
+
+/dev/mmcblk0p1 : start=        2048, size=      262144, type=b, bootable
+/dev/mmcblk0p2 : start=      264192, size=      524288, type=82
+/dev/mmcblk0p3 : start=      788480, size=    61732864, type=83

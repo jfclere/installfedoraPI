@@ -6,3 +6,4 @@ bash $$.sh
 rm $$.sh
 # do a backup of the existing partitions.
 sfdisk --dump /dev/mmcblk0 > $$.partitions
+sfdisk /dev/mmcblk0 < partitions_forpi.txt
